@@ -73,13 +73,12 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
+    opacity: 0;
+    transition: all 1s;
 }
-/*
-.prima:hover .seconda {
-    display: block;
+.product:hover  .seconda {
+    opacity: 1;
 }
-*/
 .like {
     height: 40px;
     width: 50px;
