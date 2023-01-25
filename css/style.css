@@ -5,3 +5,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Regole CSS */
+body {
+    font-family: sans-serif;
+}
+/* HEADER */
+header {
+    background-color: orangered;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 0px 6px 0px black;
+}
+.topbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: auto;
+    padding: 20px 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+.topbar ul li {
+    display: inline-block;
+    padding-right: 5px;
+}
+.menu-column{
+    color: white;
+}
+.logo-column img {
+    height: 50px;
+}
+
+/* MAIN */
